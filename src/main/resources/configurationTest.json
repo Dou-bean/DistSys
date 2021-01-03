@@ -1,0 +1,9 @@
+{
+  "clusters": [
+    {
+      "url": "fa20-cs427-230.cs.illinois.edu",
+      "port": "2333",
+      "path": "/home/yy20/distributed-log-querier/logs/test1.log"
+    }
+  ]
+}
