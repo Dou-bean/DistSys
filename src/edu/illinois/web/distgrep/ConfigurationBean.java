@@ -1,3 +1,5 @@
+package edu.illinois.web.distgrep;
+
 /**
  * @author Yichen
  */

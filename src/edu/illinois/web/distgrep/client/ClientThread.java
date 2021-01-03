@@ -1,3 +1,7 @@
+package edu.illinois.web.distgrep.client;
+
+import edu.illinois.web.distgrep.ConfigurationBean;
+
 import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
