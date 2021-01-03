@@ -74,7 +74,7 @@ class ClientThread extends Thread{
             int count = 0;
             Date date = new Date();
             SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmm");
-            File f = new File(logPath + serverID + sdf.format(date) + ".txt");
+            File f = new File(logPath + "server" + serverID + "_" + sdf.format(date) + ".txt");
             try (FileWriter fw = new FileWriter(f)) {
                 String line = null;
                 while ((line = reader.readLine()) != null) {

@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class ClientUserInterface {
 
-    private static final String LOG_PATH = "/Users/Yichen 1/DistSys/outputs/";
+    private static final String LOG_PATH = "/Users/Yichen 1/gitlab/DistSys/outputs/";
 
     public static void main(String[] args){
         System.out.println("Application started.");
