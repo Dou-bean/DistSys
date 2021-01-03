@@ -7,6 +7,7 @@ Distributed system application
 Configure cluster information in src/main/resources/configuration.json
 
 `cd scripts`
+
 `./build.sh`
 
 ## Client Side
