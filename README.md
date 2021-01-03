@@ -1,6 +1,10 @@
 # DistSys
 Distributed system application
 
+# Requirements
+
+java 8 and maven
+
 # Build & Run
 
 ## General Steps
