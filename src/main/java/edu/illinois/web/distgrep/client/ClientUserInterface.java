@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class ClientUserInterface {
 
-    private static final String LOG_PATH = "/Users/Yichen 1/gitlab/cs425fa20/MP0/Java/outputs/";
+    private static final String LOG_PATH = "/Users/Yichen 1/DistSys/outputs/";
 
     public static void main(String[] args){
         System.out.println("Application started.");
@@ -22,7 +22,7 @@ public class ClientUserInterface {
 
         String logPath;
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter your grep query:");
+        System.out.println("Enter the path to store log:");
         logPath = in.nextLine();
         if (logPath == null || "".equals(logPath)) {
             logPath = LOG_PATH;
