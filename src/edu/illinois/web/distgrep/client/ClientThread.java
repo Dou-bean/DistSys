@@ -74,7 +74,7 @@ class ClientThread extends Thread{
             int count = 0;
             Date date = new Date();
             SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmm");
-            File f = new File(logPath + serverID + sdf.format(date) + ".txt");  // 这里错了，要修改logPath成写入文件的地址
+            File f = new File(server.getPath() + serverID + sdf.format(date) + ".txt");
             try (FileWriter fw = new FileWriter(f)) {
                 String line = null;
                 while ((line = reader.readLine()) != null) {
